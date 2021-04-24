@@ -1,5 +1,5 @@
 .headerContainer {
-  background: var(--white);
+  background: var(--brown-500);
   height: 6.5rem;
 
   display: flex;
@@ -7,7 +7,12 @@
 
   padding: 2rem 4rem; // vertical horizontal
 
-  border-bottom: 1px solid var(--gray-100);
+  border-bottom: 1px solid var(--brown-500);
+
+  box-shadow: 0 6px 6px -2px rgba(0, 0, 0, 0.5);
+
+  position:relative;
+  z-index:999;
 
   p {
     margin-left: 2rem;

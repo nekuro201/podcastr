@@ -19,6 +19,26 @@
   --purple-400: #9164FA; 
   --purple-500: #8257E5;
   --purple-800: #6F48C9;
+
+  --brown-800: #67595E;
+  --brown-500: #A49393;
+
+  --pink-100: #EED6D3;
+  --pink-400: #E8B4B8;
+}
+
+// * Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 0.675rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--brown-800);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--gray-500);
+  border-radius: 0.5rem;
 }
 
 @media (max-width: 1366px) {
@@ -42,18 +62,18 @@
 }
 
 body {
-  background: var(--gray-50);
+  background: var(--brown-800);
 }
 
 body, input, textarea, button {
   font-weight: 500 1rem Inter, sans-serif;
-  color: var(--gray-500);
+  color: #494d4b;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   font-family: Lexend, sans-serif;
-  color: var(--gray-800);
+  color: var(--gray-50);
 }
 
 h1 {

@@ -1,5 +1,5 @@
 # podcastr
-Project based on the LW5 rocketseat.
+Project based on the NLW 5 rocketseat.
 
 <br>
 
